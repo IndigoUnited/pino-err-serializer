@@ -22,7 +22,9 @@
   ],
   "author": "André Cruz <amdfcruz@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "lodash.assignwith": "^4.2.0"
+  },
   "devDependencies": {
     "@satazor/eslint-config": "^3.0.0",
     "chai": "^3.4.1",
