@@ -1,0 +1,37 @@
+{
+  "name": "pino-err-serializer",
+  "version": "0.1.0",
+  "description": "An improved error serializer that not only logs the error type. message and stack but also other properties set on the error object",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '{*.js,test/**/*.js}' --ignore-pattern=test/coverage",
+    "test": "mocha --bail",
+    "test-cov": "istanbul cover --dir test/coverage _mocha -- --bail && echo Coverage lies in test/coverage/lcov-report/index.html",
+    "test-travis": "istanbul cover _mocha --report lcovonly -- --bail && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "bugs": "https://github.com/IndigoUnited/pino-err-serializer/issues/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IndigoUnited/pino-err-serializer.git"
+  },
+  "keywords": [
+    "pino",
+    "error",
+    "serializer",
+    "err"
+  ],
+  "author": "André Cruz <amdfcruz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@satazor/eslint-config": "^3.0.0",
+    "chai": "^3.4.1",
+    "coveralls": "^2.11.6",
+    "eslint": "^3.0.0",
+    "istanbul": "^0.4.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
