@@ -1,6 +1,6 @@
 {
   "name": "pino-err-serializer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An improved error serializer that not only logs the error type. message and stack but also other properties set on the error object",
   "main": "index.js",
   "scripts": {
