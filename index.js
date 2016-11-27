@@ -7,7 +7,7 @@ function assignWithCostumizer(objValue, srcValue) {
 }
 
 function errSerializer(err) {
-    return assignWith({}, {
+    return assignWith({
         type: err.constructor.name,
         message: err.message,
         stack: err.stack,
