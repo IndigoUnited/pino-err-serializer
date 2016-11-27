@@ -22,7 +22,7 @@ it('should keep error type, even if type exists as a prop', () => {
     expect(serializedErr.type).to.equal('Error');
 });
 
-it('should preset type, message and stack as first properties', () => {
+it('should preserve type, message and stack as first properties', () => {
     const err = Object.assign(new Error('foo'), { foo: 'bar' });
     const serializedErr = errSerializer(err);
 
