@@ -29,7 +29,7 @@
     "@satazor/eslint-config": "^3.0.0",
     "chai": "^3.4.1",
     "coveralls": "^2.11.6",
-    "eslint": "^3.0.0",
+    "eslint": "^3.18.0",
     "fastbench": "^1.0.1",
     "istanbul": "^0.4.1",
     "lodash.isplainobject": "^4.0.6",
