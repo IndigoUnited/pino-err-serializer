@@ -14,6 +14,8 @@
 [david-dm-dev-url]:https://david-dm.org/IndigoUnited/pino-err-serializer#info=devDependencies
 [david-dm-dev-image]:https://img.shields.io/david/dev/IndigoUnited/pino-err-serializer.svg
 
+**NOTE**: This module is deprecated because it has been merged into `pino`!
+
 An improved error serializer for [pino](https://github.com/pinojs/pino) that not only logs the error type, message and stack but also other properties set on the error object.
 
 
