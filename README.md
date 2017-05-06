@@ -11,7 +11,7 @@
 [coveralls-image]:https://img.shields.io/coveralls/IndigoUnited/pino-err-serializer/master.svg
 [david-dm-url]:https://david-dm.org/IndigoUnited/pino-err-serializer
 [david-dm-image]:https://img.shields.io/david/IndigoUnited/pino-err-serializer.svg
-[david-dm-dev-url]:https://david-dm.org/IndigoUnited/pino-err-serializer#info=devDependencies
+[david-dm-dev-url]:https://david-dm.org/IndigoUnited/pino-err-serializer?type=dev
 [david-dm-dev-image]:https://img.shields.io/david/dev/IndigoUnited/pino-err-serializer.svg
 
 **NOTE**: This module is deprecated because it has been merged into `pino`!
